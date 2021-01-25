@@ -1,0 +1,604 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+#header {
+	width: 100%;
+	height: 70px;
+	background-color: #424242;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+#ld {
+	width: 50pt;
+	height: 50pt;
+	padding-left: 15pt;
+}
+ a {
+	text-decoration: none; 
+	user-select: none;
+}
+#gobopro{
+	letter-spacing: 0.01em;
+	padding: 3% 40px;
+	font-family: Times New Roman;
+	font-weight: normal;
+	color: white;
+	text-shadow: #CDCDCD 0.5px 0.5px 0, #CDCDCD -0.5px -0.5px 0, 
+                 #CDCDCD -0.5px 0.5px 0, #CDCDCD 0.5px -0.5px 0;
+}
+.yellow_bordered_text {
+	font-weight: normal;
+	color: white;
+	text-shadow: #ffd100 0.5px 0.5px 0, #ffd100 -0.5px -0.5px 0, 
+                 #ffd100 -0.5px 0.5px 0, #ffd100 0.5px -0.5px 0;
+}
+
+
+
+.insta {
+	font-size: 14pt;
+	color: white;
+	 
+    text-decoration: none;
+}
+.insta:hover {color: #ffd100;}
+.insta:active{color: white;}
+
+#n {
+	font-size: 13pt;
+	}
+.icon {
+	width: 15pt;
+}
+.note_block {
+	display: flex;
+	padding: 0 17%;
+}
+.flex {
+	display: flex;
+}
+#number {
+	display: flex;
+	flex-direction: column;
+	padding: 0% 1%;
+}
+#menu{
+       text-transform: uppercase;
+       text-align: center;
+       line-height: 50px;
+       background: #353535;
+   }
+   #menu ul{padding:0; margin:0;}
+   #menu li{
+       display: inline;
+       list-style:none;
+       margin: 5px 10px;
+   }
+   #menu li a{
+       padding:5px 10px;
+       color:#fff;
+       text-decoration: none;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       border-radius: 5px;
+   }
+   #menu li a:hover{
+       background: #fff;
+       color: #000;
+       -webkit-transition-property: color, background;
+       -webkit-transition-duration: 0.5s, 0.5s;
+   }
+   .default{
+       width:100%;
+   }
+   .fixed{
+       position:fixed;
+       top:-5px; left:0;
+       width:100%;
+       padding: 5px 0;
+       z-index: 9999;
+   }
+
+.container {
+	height: 50px;
+	margin: 0;
+}
+#slogan {
+	width: 35%;
+	font-family: Times New Roman;
+	color: #ffd100;
+	font-size: 16pt;
+	padding: 0% 30px 0px 0px;
+	letter-spacing: 0.1em;
+	text-align: justify;
+}
+#div_main_slogan_with_btn_sbmt {
+	background-image: url(fon1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450pt;
+}
+.main_slogan {
+	font-family: Times New Roman;
+	letter-spacing: 0.25em;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 30pt;
+	padding-top: 110pt;
+	font-weight: normal;
+	color: white;
+	text-shadow: #CDCDCD 0.5px 0.5px 0, #CDCDCD -0.5px -0.5px 0, 
+                 #CDCDCD -0.5px 0.5px 0, #CDCDCD 0.5px -0.5px 0;
+}
+.text_description_p {
+	font-family: Times New Roman;
+	line-height: 1.2em;
+	font-size: 19pt;
+	font-weight: normal;
+	color: white;
+	padding: 20pt 17% 0 17%;
+	text-align: justify;
+}
+.text_description_small_p {
+	font-family: Times New Roman;
+	line-height: 1.2em;
+	font-size: 17pt;
+	font-weight: normal;
+	color: white;
+	padding: 20pt 17% 0 17%;
+	text-align: justify;
+}
+.zakaz {
+	border: 1.5pt solid #fff;
+	font: bold 12pt Times New Roman;
+	letter-spacing: 0.2em;
+	line-height: 1.5em;
+	width: 200pt;
+	height: 130px;
+	color: #000; 
+	text-decoration: none; 
+	user-select: none; 
+	background: #ffd100; 
+	padding: .7em 1.5em; 
+	outline: none; 
+	margin: 4% 39%;
+}
+.zakaz:hover {background: #78131c; color: white;}
+.zakaz:active{background: #ffd100; color: black; }
+
+.the_name_of_block {
+	width: 100%;
+	height: 60pt;
+	background-image: url(vstavka1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.vstavka_h {
+	padding-top: 1.3%;
+	font-family: Times New Roman;
+	letter-spacing: 0.25em;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+#div_commerce {
+	background-image: url(fon2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 400pt;
+}
+#div_commerce .textt {
+	font-size: 22pt;
+	padding-top: 130pt;
+	text-align: center;
+}
+.textt {
+	padding-left: 14%;
+	width: 700pt;
+	font-family: Times New Roman;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	line-height: 1.2em;
+	text-align: justify;
+	font-size: 20pt;
+	padding-top: 50pt;
+}
+.textt .yellow_bordered_text {
+	font-size: 25pt;
+}
+.div_about_gobo {
+	background-image: url(wall.png);
+	background-size: cover;
+	width: 100%;
+	height: 460pt;
+}
+#div_examples {
+	height: 850pt;
+	background-image: url(brick.png);
+	background-size: cover;
+	width: 100%;
+}
+.center {
+	text-align: center;
+	padding: 30pt 0;
+}
+#logo{
+	width: 200px;
+	padding-right: 80pt;
+}
+img.rot {
+      animation: 60s ease-in 0s normal none infinite running rot;
+      -webkit-animation: 10s linear 0s normal none infinite running rot;
+      animation-timing-function: steps(100, end);
+    }
+    @keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+.divv {
+	display: flex;
+	justify-content: space-around;
+}
+.minimized {
+	width: 160pt;
+	height: 160pt;
+	cursor: pointer;
+ 	border: 2px solid #CDCDCD;
+}
+.minimized:hover {
+  border: 2px solid #ffd100;
+}
+ 
+ #magnify {
+  display: none;
+  position: fixed;
+  max-width: 700px;
+  height: auto;
+  z-index: 9999;
+}
+#magnify img {
+  width: 100%;
+}
+ #overlay {
+  display: none;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 9990;
+}
+ #close-popup {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #AFAFAF;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#close-popup i {
+  width: 30px;
+  height: 30px;
+  background: url(https://codernote.ru/files/cross.png) no-repeat center center;
+  background-size: 16px 16px;
+  display: block;
+}
+@keyframes rota {
+ 25% { transform: rotate(360deg); }
+}
+#close-popup:hover {
+  animation: rota 4s infinite normal;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+ .div_advatages {
+	background-image: url(asphalt.png);
+	background-size: cover;
+	width: 100%;
+	height: 480px;
+}
+.text2 {
+	background-image: url(text2.png);
+}
+.div_advatages .divv {
+	padding-top: 100pt;
+} 
+.div_info_for_order {
+	background-image: url(brick2.png);
+	background-size: cover;
+	width: 100%;
+	height: 1700pt;
+	margin: 0;
+}
+.tooltip {
+    position: fixed;
+    padding: 10px 20px;
+    border: 1px solid #ffd100;
+    border-radius: 4px;
+    text-align: center;
+    font: normal 14px/1.3 sans-serif;
+    color: #000;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    }
+.textt_l {
+	padding-left: 15.5%;
+	text-align: center;
+	width: 70%;
+	font-family: Times New Roman;
+	font-weight: normal;
+	color: white;
+	line-height: 1.2em;
+	font-size: 19pt;
+}
+.kartinka5 .textt {
+	padding-top: 7pt;
+}
+.textt_m {
+	text-align: center;
+	font-family: Times New Roman;
+	font-weight: normal;
+	padding: 5%;
+	color: white;
+	font-size: 30pt;
+}
+.divv a {
+	padding-left: 2%;
+}
+.kartinka5 .flex {
+	padding: 0 14%;
+}
+.note {
+	font-family: Times New Roman;
+	font-size: 18pt;
+	font-style: italic;
+	color: #ffd100;
+	padding: 5% 0;
+}
+.note_img {
+	width: 20pt;
+	height: 20pt;
+	padding: 5% 0;
+}
+.brend {
+	height: 140pt;
+}
+.strelka {
+	height: 100pt;
+	width: 200pt;
+	background: url(pointer.png) no-repeat 50% 50%;
+	display: block;
+}
+.strelka:hover{
+	background: url(pointer2.png) no-repeat 50% 50%;
+}
+.divv_d {
+	display: flex;
+	justify-content: space-around;
+	padding: 3% 0 0 0;
+}
+.divv_d .textt_m {
+	text-align: center;
+	padding-top: 10pt;
+}
+.div_gobo_projector {
+	background-image: url(asphalt.png);
+	background-size: cover;
+	width: 100%;
+	height: 1700pt;
+	margin: 0;
+}
+.karta {
+	min-width: 300pt;
+	height: 350pt;
+	border: 3px solid white;
+	margin: 0 5%;
+}
+.photo_bcg {
+	background-color: white;
+}
+.photo {
+	width: 200pt;
+	padding-left: 50pt;
+}
+.space {
+	height: 40pt;
+	width: 100%;
+}
+.karta_text {
+	padding: 30pt 0 0 0;
+	text-align: center;
+	font-family: Times New Roman;
+	font-weight: normal;
+	color: white;
+	font-size: 18pt;
+}
+h2:hover {
+	border-bottom: 1px solid white;
+}
+
+.kartinka7 {
+	width: 100%;
+	height: 320pt;
+	background-image: url(brick.png);
+}
+.cave {
+	width: 400px;
+	max-height: 300px;
+	background-image: url(white_bcg.png);
+	padding: 10pt;
+}
+.th_cave {
+	font-family: Times New Roman;
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: left;
+	color: #000;
+	padding: 5px;
+}
+.table_cave {
+	border-collapse: separate;
+	border-spacing: 7px 11px; 
+}
+.first_h{
+	margin-left: 30pt;
+	color: black;
+}
+.first_column {
+	width: 60pt;
+}
+.icon2 {
+	width: 140pt;
+}
+#topNubex {
+	position: fixed;
+	right: 60px;
+	bottom: 60px;
+}
+#d {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #424242;
+	padding: 10px;
+	border-radius: 5px;
+	width: 340px;
+	height: 500px;
+}
+.form {
+  border: none;
+  border-bottom:2px solid #ffd100; 
+  background: none;
+  border-radius: 4px;
+  margin: 10px;
+  height: 55px;
+  width: 300px;
+  font-size: 15px;
+}
+.form:hover{
+  background-color: #ffd100;
+  color: black;
+}
+::placeholder {
+  font-size: 15px;
+  color: white;
+}
+#send {
+  border:none;
+  border-radius: 4px;
+  background-color: #ffd100;
+  color: black;
+  height: 40px;
+  width: 320px;
+  padding: 4px;
+  margin: 5px;
+  margin-bottom: 10px;
+  font-size: 13pt;
+  font-family: Times New Roman;
+}
+#send:hover{
+  background-color: #78131c;
+  color:white;
+}
+#send:active{
+	background: #ffd100; color: black;
+}
+.gobo_block {
+	max-width: 65%;
+	margin: 0 17%;
+	padding-top: 30pt;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.img_gobo {
+	width: 50%;
+	height: 50%;
+}
+.text_head_gobo {
+	text-align: center;
+	font-family: Times New Roman;
+	font-weight: normal;
+	color: white;
+	line-height: 1.2em;
+	font-size: 23pt;
+}
+.text_head_gobo_small {
+	font-size: 18pt;
+}
+.hr_line {
+	border: none; 
+    color: white; 
+    background-color: white; 
+    height: 2.2px;
+}
+.hr_line_delimiter {
+	width: 65%;
+	margin: 30pt 0 0 17%;
+}
+.th_gobo_specifications {
+	font-family: Times New Roman;
+	font-weight: normal;
+	font-size: 13pt;
+	text-align: left;
+	color: #FFF;
+}
+.table_gobo_specifications{
+	border-collapse: separate;
+	border-spacing: 15px 11px; 
+	width: 40%;
+}
+@media screen and (max-width: )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
